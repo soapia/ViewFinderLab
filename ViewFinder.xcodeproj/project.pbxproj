@@ -13,6 +13,9 @@
 		D95E28EB22946CC2004ADE29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D95E28EA22946CC2004ADE29 /* Assets.xcassets */; };
 		D95E28EE22946CC2004ADE29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D95E28EC22946CC2004ADE29 /* LaunchScreen.storyboard */; };
 		D95E28F922946CC2004ADE29 /* ViewFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95E28F822946CC2004ADE29 /* ViewFinderTests.swift */; };
+		D9DE348E22970A2700AE1D13 /* AddPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DE348D22970A2700AE1D13 /* AddPhotoViewController.swift */; };
+		D9DE34902297138900AE1D13 /* PhotoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DE348F2297138900AE1D13 /* PhotoTableViewController.swift */; };
+		D9DE3492229726D700AE1D13 /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DE3491229726D700AE1D13 /* PhotoDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		D95E28F422946CC2004ADE29 /* ViewFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D95E28F822946CC2004ADE29 /* ViewFinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewFinderTests.swift; sourceTree = "<group>"; };
 		D95E28FA22946CC2004ADE29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9DE348D22970A2700AE1D13 /* AddPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPhotoViewController.swift; sourceTree = "<group>"; };
+		D9DE348F2297138900AE1D13 /* PhotoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTableViewController.swift; sourceTree = "<group>"; };
+		D9DE3491229726D700AE1D13 /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +84,9 @@
 			isa = PBXGroup;
 			children = (
 				D95E28E022946CBF004ADE29 /* AppDelegate.swift */,
+				D9DE348D22970A2700AE1D13 /* AddPhotoViewController.swift */,
+				D9DE348F2297138900AE1D13 /* PhotoTableViewController.swift */,
+				D9DE3491229726D700AE1D13 /* PhotoDetailViewController.swift */,
 				D95E28E422946CBF004ADE29 /* Main.storyboard */,
 				D95E28EA22946CC2004ADE29 /* Assets.xcassets */,
 				D95E28EC22946CC2004ADE29 /* LaunchScreen.storyboard */,
@@ -198,6 +207,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D95E28E922946CBF004ADE29 /* ViewFinder.xcdatamodeld in Sources */,
+				D9DE348E22970A2700AE1D13 /* AddPhotoViewController.swift in Sources */,
+				D9DE34902297138900AE1D13 /* PhotoTableViewController.swift in Sources */,
+				D9DE3492229726D700AE1D13 /* PhotoDetailViewController.swift in Sources */,
 				D95E28E122946CBF004ADE29 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
